@@ -13,7 +13,7 @@ public class VolatileDome {
 			try {
 				TimeUnit.SECONDS.sleep(3);
 			} catch (InterruptedException e) {
-				// TODO: handle exception
+				e.printStackTrace();
 			}
 			myData1.setData();
 		},"Thread1").start();
@@ -28,7 +28,7 @@ public class VolatileDome {
 			try {
 				TimeUnit.SECONDS.sleep(1);
 			} catch (InterruptedException e) {
-				// TODO: handle exception
+				e.printStackTrace();
 			}
 			myData2.setData();
 		},"Thread2").start();
