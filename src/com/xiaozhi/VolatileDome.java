@@ -24,7 +24,7 @@ public class VolatileDome {
 		
 		new Thread(() -> {
 			System.out.println(Thread.currentThread().getName()+"\t Thread2 come in");
-			//‘›Õ£3√Î
+			//‘›Õ£1√Î
 			try {
 				TimeUnit.SECONDS.sleep(1);
 			} catch (InterruptedException e) {
